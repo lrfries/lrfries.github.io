@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucy Fries' Portfolio Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(219, 39, 119, 0.2);
+      padding: 50px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-bottom: 3px solid #ec4899;
+    }
+
+    h1 {
+      color: #db2777;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 48px;
+      font-style: italic;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 4px rgba(219, 39, 119, 0.1);
+    }
+
+    h2 {
+      color: #666;
+      font-style: italic;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 1.6;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 30px auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #ec4899;
+      box-shadow: 0 5px 20px rgba(219, 39, 119, 0.3);
+    }
+
+    .content-section {
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    .article {
+      background: #fdf2f8;
+      padding: 30px;
+      border-radius: 15px;
+      border-left: 5px solid #ec4899;
+      margin: 30px 0;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #333;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 12px 30px;
+      background: #ec4899;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
+    }
+
+    .read-more:hover {
+      background: #db2777;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(236, 72, 153, 0.4);
+    }
+
+    h3 {
+      color: #db2777;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 32px;
+      font-style: italic;
+      margin: 40px 0 20px;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    li {
+      font-size: 18px;
+      padding: 12px;
+      margin: 10px auto;
+      max-width: 400px;
+      background: #fdf2f8;
+      border-radius: 10px;
+      border-left: 4px solid #ec4899;
+      transition: all 0.3s ease;
+    }
+
+    li:hover {
+      background: #fce7f3;
+      transform: translateX(5px);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Lucy Fries</h1>
+      <h2>Magazine, News & Digital Journalism Major in the Newhouse School of Public Communications</h2>
+    </div>
+
+    <img src="personal image.jpeg" class="profile-img" alt="Lucy Fries personal image"/>
+
+    <div class="content-section">
+      <div class="article">
+        <p>With the arrival of a new season comes the revival of classic wardrobe pieces. There have been an abundance of fashion trends that have resurfaced, such as Boho-Chic and denim styles, but the most recent look receiving attention this fall is the horse girl aesthetic. Vogue's recent October issue features models Gigi Hadid and Kendall Jenner on a western-inspired cover. More attention is brought to the fluidity and composure of horseback riding as the trend is being embraced by the fashion industry, allowing the sport to be used in photo shoots and the style to be showcased. Because of this, many Western Boho-Chic looks are emerging as major fashion trends, even making their way to New York Fashion Week.</p>
+
+        <p>Vogue's Western-style shoot hones in on nature, bringing in flowy gowns and models galloping in photo sessions. Not only was the style used to showcase the outfits, Vogue made it apparent that while modeling and horseback riding are different hobbies, they share many similar attributes, both demanding control and resilience. With the sport being used in the fashion industry, many models have even taken it upon themselves to become self-proclaimed riders. Kendall Jenner shared that the stables act as a sanctuary to clear her mind, while others may favor the more competitive nature that is associated with it. Both Bella and Gigi Hadid took after their mother, Yolanda, and share a love for the sport, with Bella even competing in rodeos...</p>
+      </div>
+
+      <a href="https://www.fetchcollectivemag.com/post/the-rise-of-the-horse-girl-aesthetic/" target="_blank" class="read-more">Click to Read More</a>
+    </div>
+
+    <h3>Schools Attended</h3>
+    <ul>
+      <li>Disney 2 Magnet School</li>
+      <li>DePaul College Prep</li>
+      <li>Syracuse University</li>
+    </ul>
+  </div>
+</body>
+</html>
