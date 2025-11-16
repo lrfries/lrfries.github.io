@@ -1,9 +1,8 @@
 
-
-Header {
+header {
 background-color: rgb(245, 190, 247);
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10%;
@@ -13,51 +12,58 @@ background-color: rgb(245, 190, 247);
 
 
 
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color:aliceblue;
+    margin-left: 20px;
+    padding: 0px;
+    background-image: url("newspaperbackground.jpeg");
+}
+
+
+
+
+
 h1{
-    color: rgb(188, 0, 106);
+    color: rgb(235, 46, 153);
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
 }
 
-p{
-    color: black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-
-
-}
-
-
-ul{
-
-    color: black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-
-
 h2{
-    color: rgb(188, 0, 106);
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-
 }
 
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+h3{
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+
+.image1{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 li{
-    color: black;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
     list-style-position: inside;
 }
-
-
-
-
 
 
