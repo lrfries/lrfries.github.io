@@ -1,0 +1,25 @@
+
+
+.image1 {
+    width: 250px;
+    float:left;
+}
+
+.image2{
+    width: 200px;
+    float:right;
+}
+
+header {
+
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    border-color:black;
+
+}
+
+
+
+
