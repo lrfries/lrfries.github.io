@@ -1,0 +1,53 @@
+
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+}
+
+
+h1{
+    color: rgb(188, 0, 106);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+   
+h2{
+    color: black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 450px;
+
+}
+
+ul{
+    font-size: 20px;
+    text-align: center;
+}
+
+.image2 {
+    width: 550px;
+    float:left;
+}
+
+.image3{
+    width: 550px;
+    float:right;
+}
+
+li{
+    list-style-position: inside;
+}
+
+
