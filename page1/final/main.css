@@ -1,19 +1,138 @@
-header {
-background-color: rgb(245, 190, 247);
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 15px;
+
+
+
+.navbar {
+    background: linear-gradient(135deg, #87CEEB 0%, #B0E0E6 100%) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px;
 }
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #003366 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #005599 !important;
+}
+
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #003366 !important;
+    padding: 8px 16px !important;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #005599 !important;
+}
+
+.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: #003366;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 51, 102, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+    
+
+
+
+
+
+
 
 
 h1{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 40px;
+
 
 }
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  
+}
+
+
+
+img{
+  width: 400px;
+  height: 400px;
+  padding-top: 50px;
+  max-width: 100%;
+  
+}
+
+
+.body-text{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+
+
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+ text-align: center;
+ padding-top: 70px;
+ padding-bottom: 30px;
+}
+
+.data-chart{
+  transform:scale(0.8)
+}
+
+
+.intro{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+.image2{
+  width: 400px;
+  height: 400px;
+  padding-top: 60px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-bottom: auto;
+  display: block;
+ 
+  
+}
+
 
