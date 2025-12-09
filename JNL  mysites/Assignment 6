@@ -1,0 +1,34 @@
+
+<html>
+
+  <head>
+   <title></title>
+  </head>
+    
+<body>
+
+  <h1>Data Analysis: Sub-Saharan Africa Troop Deployment 1953-1976<h1> 
+  <h2>Lucy Fries</h2>
+
+  <img />
+
+    <br/>
+  
+  
+  </body>
+
+    <p>The graph that I created focused on 1953-1976 in Sub-Saharan Africa. The reason that I chose to focus on this time period was because of the way that the data was visualized on the line graph of all of the sub-Saharan troop data in the data wrapper. It showed that across this time period, there was an increase and a decrease in troop deployment. The graph signified that something happened historically to cause this change in troop deployment. </p>
+
+    <iframe title="Sub-Saharan Africa Troop Deployment 1953-1976" aria-label="Line chart" id="datawrapper-chart-fmY66" src="https://datawrapper.dwcdn.net/fmY66/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="394" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+
+<p> After looking into the data, I found that this visual of an increase to decrease in the data demonstrates the decolonization and subsequent independence of Sub-Saharan Africa during this time period. In 1956, Sudan became independent from Britain and Egypt, followed by Ghana in 1957. As countries gained independence, colonial troops withdrew rapidly. 1960 was known as the “Year of Africa,” when 17 African countries gained independence. Troop deployment started to rise starting in 1961 as Portugal deployed approximately 70,000 troops each to Angola and Mozambique by the mid-1960s in an effort to fight independence movements. While this was going on the Nigerian Civil War was facing a peak and an end, causing Nigeria to add roughly 290,000 troops around during 1967-1969, then withdraw over half of their troops in 1970 when the war ended, resulting in a decline. In 1974, Portugal became bankrupt after fighting colonial wars, causing a military coup, and leading to ceasefires, a withdrawal of Portuguese troops, and the independence of Angola and Mozambique. 
+
+To create my individual graph, I created a pivot table from the troops data so that I could assess the data in the specific time period that I wanted to focus on. In the rows, I put “Year,” in the values I put “troops,” and then I filtered the data so that it would only show the years 1953-1976. I then copied this data and pasted it into a data wrapper, checked to make sure my data was approved (green), and then created the graph that I then annotated based on my historical findings. Using a graph made it easier for me to visualize the change in data and hit key years to find a story in the information presented.</p>
+
+<a </a>
+
+<h2> </h2>
+
+    
+</html>
+
