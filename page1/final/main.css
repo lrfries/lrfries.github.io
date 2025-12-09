@@ -59,8 +59,11 @@ h1{
   font-family: "Limelight", sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
+  text-align:center;
   padding-top: 40px;
+  padding-bottom: 30px;
+  font-weight: bold;
+
 
 
 }
@@ -68,18 +71,32 @@ h1{
 h2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
+  font-weight: bold;
   
 }
 
+h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: left;
+  
+
+}
 
 
 p{
   font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+    text-align: left;
+    padding-top: 20px;
   
 }
+
 
 
 
@@ -94,7 +111,7 @@ img{
 
 .body-text{
   font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 10px;
 
 }
@@ -105,9 +122,9 @@ img{
 h3{
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
- text-align: center;
- padding-top: 70px;
- padding-bottom: 30px;
+ text-align: left;
+ padding-top: 80px;
+ font-weight: bold;
 }
 
 .data-chart{
@@ -135,4 +152,45 @@ h3{
   
 }
 
+iframe{
+  padding-top: 35px;
+}
 
+
+#datawrapper-chart-HUBj4 {
+  margin-top: 110px;
+  margin-right: 20px;
+}
+
+
+
+#datawrapper-chart-IMu41 {
+  margin-top: 73px;
+  margin-left: 18px;
+
+}
+
+.image1 {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.image2 {
+  width: 302px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.image3 {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+
+}
